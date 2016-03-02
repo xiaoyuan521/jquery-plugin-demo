@@ -65,7 +65,7 @@
 			}else {
 				// 创建组件
 
-				$.extend($.fn.poem.defaults, options);
+				options = $.extend({}, $.fn.poem.defaults, options);
 				poemObj = new Poem($dom, options);
 				$dom.data("poem", poemObj);
 			}
