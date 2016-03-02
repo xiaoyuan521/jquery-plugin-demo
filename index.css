@@ -1,0 +1,13 @@
+.poemContainer {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.poemContainer .header{
+	border: 1px solid black;
+	padding: 5px 15px;
+}
+
+.poemContainer .body {
+	border: 1px solid black;
+}
